@@ -1,0 +1,16 @@
+{
+  "name": "MeanBook",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "populate": "node ./bin/populate_db"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "mongoose": "~3.8.11",
+    "mongoose-post-find": "0.0.2",
+    "async": "~2.0.0-rc.5"
+  }
+}
